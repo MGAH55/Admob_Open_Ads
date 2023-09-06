@@ -22,7 +22,7 @@ import java.util.Date;
 /** Prefetches App Open Ads. */
 public class AppOpenManager implements LifecycleObserver, Application.ActivityLifecycleCallbacks {
     private static final String LOG_TAG = "AppOpenManager";
-    private static final String AD_UNIT_ID = "ca-app-pub-5488597907559423/6232299411";
+    private static final String AD_UNIT_ID = "ca-app-pub-3940256099942544/3419835294";
     private AppOpenAd appOpenAd = null;
 
     private AppOpenAd.AppOpenAdLoadCallback loadCallback;
